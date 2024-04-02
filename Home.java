@@ -1,5 +1,5 @@
 public class Home {
-    public static ShooterObject shooterObject = new ShooterObject();
+    public static ShooterObject shooterObject = new ShooterObject(22,1000);
     public static void main(String[] args) {
         // System.out.println(shooterObject.v0y);
         // System.out.println(shooterObject.th);

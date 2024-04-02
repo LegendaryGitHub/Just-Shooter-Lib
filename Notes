@@ -1,0 +1,33 @@
+Resources used for finding the equations:
+Wikipedia: https://en.m.wikipedia.org/wiki/Projectile_motion#Angle_%CE%B8_required_to_hit_coordinate_(x,_y)
+1. Maximum distance of projectile
+2. Maximum height of projectile
+3. Velocity - both the x- and y- axis
+
+Current Stage (Current Commit Notes):
+- Working on documenting (this page :)
+- Should work for a non-moving bot (not tested on a bot, just basic java)
+- No current constraints for min/max RPM
+- Velocity Calculations are set up and work within margin of error
+- No vision has been implemented
+- Very barebones 
+
+Stage 1: 
+- Document
+- Usage for non-moving bot
+- Shot constraints min/max RPM
+- Object Velocity Setup
+- Drag - constant
+- Vision Target (x,y,z)
+- High center constant RPM Shot
+
+Stage 2: 
+- Approach angle target
+- Pace/Odometry/Unility
+- Shot Ok base on the distance and target size
+- Confidenet repeat / shot see in odometry zone constraints
+
+Stage 3:
+- Shots on the run
+- Least effort control
+
