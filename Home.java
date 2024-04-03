@@ -1,5 +1,5 @@
 public class Home {
-    public static ShooterObject shooterObject = new ShooterObject(22,1000);
+    public static ShooterObject shooterObject = new ShooterObject(23, 1000, 3.0);
     public static void main(String[] args) {
         // System.out.println(shooterObject.v0y);
         // System.out.println(shooterObject.th);
@@ -9,8 +9,11 @@ public class Home {
 
         // System.out.println("The max height the object will reach: " + shooterObject.distancehorizontal());
 
-        System.out.println("v0x: " + shooterObject.v0x);
-        System.out.println("td: " + shooterObject.td);
-        System.out.println("Check the Horizontal Distance" + shooterObject.distancehorizontal());
+        // System.out.println("v0x: " + shooterObject.v0x);
+        // System.out.println("td: " + shooterObject.td);
+        // System.out.println("Check the Horizontal Distance" + shooterObject.distancehorizontal());
+        
+        System.out.println("targetRPM: " + shooterObject.targetRPM(7.0, 0.5));
+
     }
 }
